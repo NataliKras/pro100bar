@@ -8,7 +8,7 @@ class Conf
         'host' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'dbname' => 'eshop'
+        'dbname' => 'barmanager'
     ];
     const DEFAULT_CONTROLLER = 'Site';
     const DEFAULT_ACTION = 'Home';
