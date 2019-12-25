@@ -20,6 +20,8 @@ class View
     }
     public function render($viewName, $viewData = [])
     {
+        
+        // print_r($this->layout);
         $this->viewName = $viewName;
         $this->viewData = $viewData;
         //        define('CLEAN_URL_PATH', str_replace(basename($_SERVER['PHP_SELF']), '', $_SERVER['PHP_SELF']));

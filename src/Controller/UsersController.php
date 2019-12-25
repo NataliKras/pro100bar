@@ -21,7 +21,7 @@ class UsersController extends AbstractTableController
 
     public function actionShowEditForm()
     {
-        $tableUsersGroup = new DbEntity('user_group', DB::Link(Conf::MYSQL));
+        $tableUsersGroup = new DbEntity('users', DB::Link(Conf::MYSQL));
 
         $this->view->setPatternsPath('templates/usersTable/');
 

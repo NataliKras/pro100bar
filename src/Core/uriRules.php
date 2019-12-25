@@ -2,8 +2,11 @@
 
 return [
     '/home' => 'site/home',
-    '/about' => 'site/about',
     '/login' => 'site/loginform',
+
+    '/ingridients' => 'site/loginform',
+    // "/showIngridients" => 
+
 
     '/usergroup/page{page}' => 'usergroup/show',
     '/usergroup/edit{id}' => 'usergroup/showeditform',
