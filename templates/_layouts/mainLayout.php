@@ -34,10 +34,10 @@ use App\View\Helper\HTML;
           <a class="nav-link" href="<?=Dispatcher::dispatcher()->encodeUri("site/home")?>">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?=Dispatcher::dispatcher()->encodeUri("coctails/index")?>">Coctails</a>
+          <a class="nav-link" href="<?=Dispatcher::dispatcher()->encodeUri("coctails/show")?>">Coctails</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?=Dispatcher::dispatcher()->encodeUri("site/ingridients/ShowIngridients")?>">Ingridients</a>
+          <a class="nav-link" href="<?=Dispatcher::dispatcher()->encodeUri("ingridients/show")?>">Ingridients</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?=Dispatcher::dispatcher()->encodeUri("users/show", ['page' => 1])?>">Users</a>
